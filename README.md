@@ -1,10 +1,13 @@
 # DeepBrain Tumor Analysis
 
-This project focuses on brain tumor classification using MRI images and deep learning.
+DeepBrain Tumor Analysis is a deep learning–based system for classifying brain tumors from MRI images.
 
-## Approach
-- Transfer Learning with VGG16
-- CNN-based image classification
+## Objective
+To classify brain MRI scans into different tumor categories using a CNN model.
+
+## Model Used
+- VGG16 (Transfer Learning)
+- Fine-tuned on MRI images
 
 ## Classes
 - Glioma Tumor
@@ -12,5 +15,12 @@ This project focuses on brain tumor classification using MRI images and deep lea
 - Pituitary Tumor
 - No Tumor
 
+## Technologies
+- Python
+- TensorFlow / Keras
+- OpenCV
+- NumPy
+- Matplotlib
+
 ## Note
-Trained model (.h5) files are not uploaded due to size limitations.
+The trained model (.h5) file is not uploaded due to GitHub file size limitations.
