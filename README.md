@@ -24,3 +24,13 @@ To classify brain MRI scans into different tumor categories using a CNN model.
 
 ## Note
 The trained model (.h5) file is not uploaded due to GitHub file size limitations.
+## Training Status
+- Phase 1 training completed successfully.
+- Phase 2 fine-tuning was partially completed.
+- Training stopped due to system memory limitations during fine-tuning.
+- Best model was automatically saved using ModelCheckpoint and used for prediction.
+
+## Performance
+- Training Accuracy: ~95%
+- Validation Accuracy: ~78%
+
